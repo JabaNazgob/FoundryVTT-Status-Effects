@@ -1,0 +1,52 @@
+{
+	"title": "Status effects",
+	"description": "Bottom text",
+	"version": "1",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11"
+    },
+  "socket": true,
+	"authors": [
+		{
+			"name": "Nazgob"
+		}
+	],
+	"esmodules": [
+    "scripts/main.js",
+    "scripts/settings.js",
+    "scripts/effects.js"
+	],
+	"styles": [
+		"styles/module.css"
+	],
+  "relationships": {
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {
+          "minimum": "11.4.34",
+          "verified": "11.4.34"
+        }
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {
+          "minimum": "11.3.29",
+          "verified": "11.3.29"
+        }
+      }
+    ]
+  },
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "language/en.json",
+        "flags": {}
+      }
+    ],
+	"id": "status-effects"
+}
