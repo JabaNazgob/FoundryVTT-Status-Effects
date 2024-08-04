@@ -1,7 +1,7 @@
 {
 	"title": "Status effects",
 	"description": "Bottom text",
-	"version": "1",
+	"version": "1.0",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
@@ -48,5 +48,7 @@
         "flags": {}
       }
     ],
-	"id": "status-effects"
+	"id": "status-effects",
+  "manifest": "https://github.com/JabaNazgob/FoundryVTT-Status-Effects/releases/latest/download/module.json",
+  "download": "https://github.com/JabaNazgob/FoundryVTT-Status-Effects/releases/download/v1.0/module.zip"
 }

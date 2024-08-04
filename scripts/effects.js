@@ -30,7 +30,7 @@ const paralysisUpdates = (effectName, effectStacks) => {return {
     'label': `${effectName} - ${effectStacks}`,
     'changes': [
         {
-            'key': 'bonuses.All-Attacks',
+            'key': 'system.bonuses.All-Attacks',
             'mode': 2,
             'value': -effectStacks,
             'priority': 20
